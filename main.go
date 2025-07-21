@@ -29,7 +29,7 @@ func main() {
 
 	http.HandleFunc("/home", homePage)
 	http.HandleFunc("/courses", coursePage)
-	http.HandleFunc("/about", aboutPage)
+	http.HandleFunc("/about/ujjwalsapkota", aboutPage)
 	http.HandleFunc("/contact", contactPage)
 
 	err := http.ListenAndServe("0.0.0.0:8080", nil)
